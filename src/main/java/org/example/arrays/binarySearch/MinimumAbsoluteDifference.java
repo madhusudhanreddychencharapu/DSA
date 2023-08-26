@@ -1,4 +1,4 @@
-package org.example.arrays;
+package org.example.arrays.binarySearch;
 
 import java.util.Arrays;
 

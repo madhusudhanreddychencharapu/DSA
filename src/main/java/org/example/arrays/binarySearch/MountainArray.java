@@ -1,4 +1,4 @@
-package org.example.arrays;
+package org.example.arrays.binarySearch;
 
 public class MountainArray {
     public static void main(String[] args) {

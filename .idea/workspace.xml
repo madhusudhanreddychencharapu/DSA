@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/Ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/Ceiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/FirstLastIndexSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/FirstLastIndexSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/InfiniteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/InfiniteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MergeTwoSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/MinimumAbsoluteDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MinimumAbsoluteDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/MinimumEatingSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MinimumEatingSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/MountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/Pivot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/Pivot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/SplitArrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/SplitArrayLargestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +243,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java</url>
+          <line>71</line>
+          <properties class="org.example.Recursion.Backtracking.Maze" method="mazePathsObstacles">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

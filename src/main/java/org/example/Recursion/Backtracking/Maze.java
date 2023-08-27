@@ -6,15 +6,22 @@ import java.util.List;
 public class Maze {
     static int count=0;
     public static void main(String[] args) {
-        int res = countPaths(3,3);
+        //int res = countPaths(3,3);
         // System.out.println("The total no of paths are : "+result);
 
-        mazePaths("",3,3);
-       // System.out.println("Total paths"+listString);
-        System.out.println("The number of recursion calls :"+count);
+        //mazePaths("",3,3);
+        // System.out.println("Total paths"+listString);
+        //System.out.println("The number of recursion calls :"+count);
 
-       ArrayList<String > ans = mazePathList("",3,3);
-        System.out.println("The resultant list is :"+ans);
+        //ArrayList<String > ans = mazePathList("",3,3);
+        //System.out.println("The resultant list is :"+ans);
+
+        boolean[][] arr = {
+                {true,true,false},
+                {true,false,true},
+                {true,true,true},
+            };
+        mazePathsObstacles("",arr,0,0);
 
     }
 
@@ -62,4 +69,20 @@ public class Maze {
         left.addAll(right);
         return left;
     }
+    static void mazePathsObstacles(String p,boolean[][] arr,int r , int c){
+        if(r == arr.length-1 && c == arr[0].length-1){
+            System.out.println(p);
+            return;
+        }
+        if(!arr[r][c]){
+            return;
+        }
+        if(r < arr.length-1) {
+            mazePathsObstacles(p + "D",arr,r + 1, c);
+        }
+        if(c < arr[0].length-1) {
+            mazePathsObstacles(p+"R",arr,r, c + 1);
+        }
+    }
+
 }

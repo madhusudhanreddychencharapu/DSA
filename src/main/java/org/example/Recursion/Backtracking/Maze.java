@@ -1,10 +1,10 @@
 package org.example.Recursion.Backtracking;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Maze {
-    static int count=0;
+    static int countPaths = 0;
     public static void main(String[] args) {
         //int res = countPaths(3,3);
         // System.out.println("The total no of paths are : "+result);
@@ -17,15 +17,18 @@ public class Maze {
         //System.out.println("The resultant list is :"+ans);
 
         boolean[][] arr = {
-                {true,true,false},
-                {true,false,true},
+                {true,true,true},
+                {true,true,true},
                 {true,true,true},
             };
-        mazePathsObstacles("",arr,0,0);
-
+        mazePathsAllSides("",arr,0,0);
+        System.out.println("The total of paths moving four sides :"+countPaths);
+        for (boolean[] booleans : arr) {
+            System.out.println(Arrays.toString(booleans));
+        }
     }
 
-    // Here we return the to no of possible ways of to pass from reaching A to end.
+    // Here we return the  no of possible ways of to pass from reaching A to end.
     static int countPaths(int r, int c){
         if(r == 1 || c == 1){
             return 1;
@@ -40,7 +43,7 @@ public class Maze {
     //Here are we are using the recursion calls like :
     //path till the point + F(Reduced array)
     static void mazePaths(String p,int r , int c){
-        count++;
+     //   count++;
         if(r == 1 && c == 1){
             System.out.println(p);
         }
@@ -85,4 +88,46 @@ public class Maze {
         }
     }
 
+    /*
+    * Here the person can go any of the four ways 1.UP 2.DOWN 3.RIGHT 4.LEFT
+    *
+    * we are using the BackTracking now means initially we are changing the
+    * original array after moving it making false then calling the next function
+    *
+    * while at the time of Returning we are changing the array to its original position
+    * when it is called.
+    *
+    * */
+    static void mazePathsAllSides(String p,boolean[][] arr,int r , int c) {
+
+        if (r == arr.length - 1 && c == arr[0].length - 1) {
+            countPaths++;
+            System.out.println(p);
+           // arr[r][c] = true;
+            return;
+        }
+        if (arr[r][c] == false) {
+            return;
+        }
+        if (c < arr[0].length - 1) {
+            arr[r][c] = false;
+            mazePathsAllSides(p + "R", arr, r, c + 1);
+            arr[r][c] = true;
+        }
+        if (c > 0) {
+            arr[r][c] = false;
+            mazePathsAllSides(p + "L", arr, r, c - 1);
+            arr[r][c] = true;
+        }
+        if (r > 0) {
+            arr[r][c] = false;
+            mazePathsAllSides(p + "U", arr, r - 1, c);
+            arr[r][c] = true;
+        }
+        if (r < arr.length - 1) {
+            arr[r][c] = false;
+            mazePathsAllSides(p + "D", arr, r + 1, c);
+            arr[r][c] = true;
+        }
+    }
 }

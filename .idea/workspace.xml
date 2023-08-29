@@ -244,6 +244,15 @@
           </properties>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java</url>
+          <line>147</line>
+          <properties class="org.example.Recursion.Backtracking.Maze" method="printMazePathArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

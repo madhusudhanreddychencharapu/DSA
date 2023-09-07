@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/HashMapBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/PermutationS1andS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Permutation_String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +62,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Maze">
-    <configuration name="AsciiValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Strings.AsciiValue" />
+  <component name="RunManager" selected="Application.HashMapBasic">
+    <configuration name="HashMapBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.HashMapBasic" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="PATTERN" value="org.example.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PermutationS1andS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.PermutationS1andS2" />
+      <module name="Java_Linked_List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Recursion.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutation_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.Permutation_String" />
+      <module name="Java_Linked_List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Recursion.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.arrays.Sorting.SelectionSort" />
       <module name="Java_Linked_List" />
@@ -100,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.SubSequence" />
-      <module name="Java_Linked_List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Recursion.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.arrays.temp" />
-      <module name="Java_Linked_List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapBasic" />
+        <item itemvalue="Application.Permutation_String" />
+        <item itemvalue="Application.PermutationS1andS2" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.temp" />
-        <item itemvalue="Application.AsciiValue" />
-        <item itemvalue="Application.SubSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +253,7 @@
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

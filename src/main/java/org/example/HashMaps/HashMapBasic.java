@@ -1,6 +1,5 @@
 package org.example.HashMaps;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -49,5 +48,23 @@ public class HashMapBasic {
         //another direct method we can use to new entry if key doesn't exist
         System.out.println(mp.putIfAbsent("Madhu" , 24));
         System.out.println("The sai key is added through putIfAbsent method :"+mp);
+
+        //Get all the keys in the HashMap
+        System.out.println(mp.keySet());
+
+        //Traverse all the entries of HashMap using the keySet() method
+        for(String key :  mp.keySet()){
+            System.out.printf("The age of %s is %d\n",key,mp.get(key));
+        }
+
+        //Get all the values in the HashMap
+        System.out.println(mp.values());
+
+        //Traverse all the entries of HashMap through entrySet Method
+        System.out.println(mp.entrySet());
+        for (Map.Entry<String, Integer> res : mp.entrySet()) {
+            System.out.printf("The age of %s is %d \n",res.getKey(),res.getValue());
+        }
+
     }
 }

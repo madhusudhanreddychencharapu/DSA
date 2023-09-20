@@ -25,7 +25,7 @@ public class QuickSort {
             while(arr[end]>target){
                 end--;
             }
-            if(start < end && end >=0) {
+            if(start < end && end >= 0) {
                 int temp = arr[start];
                 arr[start] = arr[end];
                 arr[end] = temp;

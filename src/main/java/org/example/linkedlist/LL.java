@@ -13,6 +13,14 @@ public class LL {
 
     }
 
+    /*
+    * Here we are mainly checking the two conditions whether the
+    * 1.Linked list is Empty
+    *   if empty then our newly adding node is the first node.
+    * 2.Linked list has already some nodes
+    *   already nodes exist means we should add the new node
+    *   and change the  head to the new node.
+    * */
     public void addFirst(int num){
         Node node = new Node(num);
        // System.out.println(node);
@@ -28,19 +36,34 @@ public class LL {
         }
         size++;
     }
-
+    /*
+    * Here also we are checking two conditions
+    * 1.Linked list is empty
+    *   if it is empty then add head,tail to node and increment size
+    * 2.Already some nodes exist in the Linked list
+    *   Then if tail pointer is not given we have to traverse until
+    *   node.next != null then add the node change the tail if given
+    *   and then increment the size
+    * */
     public void addLast(int num){
         if(tail == null){
             addFirst(num);
         }else{
         Node node = new Node(num);
         tail.next = node;
-        tail = node;}
+        tail = node;
+        size++;
+        }
     }
 
+    /*
+    * Here we are checking the for first index or last index if not we check for
+    *   Traverse up to the index and store the next node address and then add
+    *   the newly created node at particular index  then add the
+    *   node.next = the one address we have already stored
+    * */
     public void addAtIndex(int num , int index){
         Node node = new Node(num);
-        System.out.println("This is the additional node"+node);
         Node tempadd ;
         int i = 1;
         if(index == 0){
@@ -56,6 +79,7 @@ public class LL {
             tempadd = temp.next;
             temp.next = node;
             node.next=tempadd;
+            size++;
         }
     }
 
@@ -87,6 +111,12 @@ public class LL {
        return node;
     }
 
+    /*
+    * Here first we have to traverse the temp to index-1 of LL then
+    * 1.store the deleting node value into some variable return after
+    *   deleting it.
+    * 2.temp.next = temp.next.next;
+    * */
     public int deleteAtIndex(int index){
         if(index<=1){
             deleteFirst();
@@ -101,6 +131,7 @@ public class LL {
     }
 
     public void display(){
+        System.out.println("The size of the linkedlist is : "+size);
         Node temp = head;
         while(temp != null){
             System.out.print(temp.num+"->");
@@ -108,6 +139,13 @@ public class LL {
         }
         System.out.println("END");
     }
+    /*
+    * Here we are deleting the first node means head always points to the first
+    * node hence head = head.next before that we have store that number and return it.
+    *
+    * If Linked list having the only one node then if we delete it then head and tail
+    * both pointing to the null.
+    * */
     public int  deleteFirst(){
         int temp = head.num;
         head = head.next;
@@ -116,6 +154,11 @@ public class LL {
         }
         return temp;
     }
+    /*
+    * Here we are traversing the LL because we don't know the previous node values
+    * the traversal continuous up to the size-1 index
+    * Then the update the tail value with the temp.next and temp.next == null;
+    * */
     public int deleteLast(){
         if(size <=1){
             deleteFirst();
@@ -127,6 +170,18 @@ public class LL {
         return num;
 
     }
+
+    /*
+    * Here we are doing simple traversing the ll up to the index and
+    * returning the node.
+    * we can use while alternatively like these
+    *
+    * int i = 0;
+    * while(i++ < index){
+    *   temp = temp.next;
+    * }
+    * return temp;
+    * */
     public Node getNodeForIndex(int index){
         Node temp = head;
         for(int i=0;i<index;i++){

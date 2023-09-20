@@ -3,7 +3,8 @@ package org.example.arrays.binarySearch;
 public class Pivot {
     public static void main(String[] args) {
        // int arr[] = {89,112,216,324,486,502,689,1,52,63,75};
-        int arr[] = {2,9,2,2,2};
+        //int arr[] = {2,9,2,2,2};
+        int arr[] = {5,6,1,2,3,4};
         System.out.println("The index of the target : "+search(arr,2));
     }
 
@@ -11,7 +12,8 @@ public class Pivot {
 
         int pivot = pivot(nums);
 
-        System.out.println("pivot +"+pivot);
+        System.out.println("pivot : " +
+                ""+pivot);
 
         // If pivot ==-1 means array is not rotated
         if(pivot == -1){

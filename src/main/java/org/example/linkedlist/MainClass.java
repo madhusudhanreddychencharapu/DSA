@@ -81,19 +81,19 @@ public class MainClass {
 //        LL res = mergeSortedList(first , second);
 //        res.display();
 
-        LL list = new LL(0);
-     //   list.addFirst(70);
-        list.addFirst(60);
-        list.addFirst(50);
-        list.addFirst(40);
-        list.addFirst(30);
-        list.addFirst(20);
-
-        Node res = list.middleLLfs(list.head);
-        while (res != null){
-            System.out.println(res.num+"->");
-            res = res.next;
-        }
+//        LL list = new LL(0);
+//     //   list.addFirst(70);
+//        list.addFirst(60);
+//        list.addFirst(50);
+//        list.addFirst(40);
+//        list.addFirst(30);
+//        list.addFirst(20);
+//
+////        Node res = list.middleLLfs(list.head);
+//        while (res != null){
+//            System.out.println(res.num+"->");
+//            res = res.next;
+//        }
 
        // list.insertRec(8,5);
 
@@ -116,5 +116,21 @@ public class MainClass {
 //
 //        System.out.println("Display in the reverse");
 //        dlist.displayReverse();
+
+
+        LL ll = new LL(0);
+        ll.addFirst(20);
+        ll.addLast(60);
+
+        ll.display();
+
+
+        ll.addAtIndex(30,1);
+
+        ll.display();
+        ll.addAtIndex(40,2);
+        ll.addAtIndex(50,3);
+
+        ll.display();
     }
 }

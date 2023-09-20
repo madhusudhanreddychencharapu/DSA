@@ -132,5 +132,10 @@ public class MainClass {
         ll.addAtIndex(50,3);
 
         ll.display();
+
+        System.out.println(ll.deleteFirst());
+        ll.display();
+        System.out.println(ll.deleteLast());
+        ll.display();
     }
 }

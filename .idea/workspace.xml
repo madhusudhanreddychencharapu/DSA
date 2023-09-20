@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/subset/SubsetArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/MountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/Pivot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/arrays/binarySearch/Pivot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MainClass.java" afterDir="false" />
     </list>

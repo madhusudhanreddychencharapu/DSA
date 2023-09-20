@@ -119,14 +119,15 @@ public class LL {
     * */
     public int deleteAtIndex(int index){
         if(index<=1){
-            deleteFirst();
+             return deleteFirst();
         }
         if(index == size-1){
-            deleteLast();
+             return deleteLast();
         }
         Node node = getNodeForIndex(index-1);
         int temp = node.next.num;
-        node.next=node.next.next;
+        node.next = node.next.next;
+        size--;
         return temp;
     }
 
@@ -152,6 +153,7 @@ public class LL {
         if(head == null){
             tail = null;
         }
+        size--;
         return temp;
     }
     /*
@@ -163,10 +165,11 @@ public class LL {
         if(size <=1){
             deleteFirst();
         }
-        Node node = getNodeForIndex(size-1);
+        Node node = getNodeForIndex(size-2);
         int num = tail.num;
-        tail=node;
+        tail = node;
         tail.next = null;
+        size--;
         return num;
 
     }

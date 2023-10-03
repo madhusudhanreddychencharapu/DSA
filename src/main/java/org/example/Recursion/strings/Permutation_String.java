@@ -27,7 +27,7 @@ public class Permutation_String {
         int length = p.length();
         char ch = up.charAt(0);
         for(int i = 0 ; i <= length; i++){
-            permutation(p.substring(0,i)+ch+p.substring(i),up.substring(1));
+            permutation(p.substring(0,i)+ch+p.substring(i) , up.substring(1));
         }
     }
 
@@ -41,6 +41,7 @@ public class Permutation_String {
             list.add(p);
             return list;
         }
+
         int length = p.length();
         char ch = up.charAt(0);
 

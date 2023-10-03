@@ -118,24 +118,24 @@ public class MainClass {
 //        dlist.displayReverse();
 
 
-        LL ll = new LL(0);
-        ll.addFirst(20);
-        ll.addLast(60);
-
-        ll.display();
-
-
-        ll.addAtIndex(30,1);
-
-        ll.display();
-        ll.addAtIndex(40,2);
-        ll.addAtIndex(50,3);
-
-        ll.display();
-
-        System.out.println(ll.deleteFirst());
-        ll.display();
-        System.out.println(ll.deleteLast());
-        ll.display();
+//        LL ll = new LL(0);
+//        ll.addFirst(20);
+//        ll.addLast(60);
+//
+//        ll.display();
+//
+//
+//        ll.addAtIndex(30,1);
+//
+//        ll.display();
+//        ll.addAtIndex(40,2);
+//        ll.addAtIndex(50,3);
+//
+//        ll.display();
+//
+//        System.out.println(ll.deleteFirst());
+//        ll.display();
+//        System.out.println(ll.deleteLast());
+//        ll.display();
     }
 }

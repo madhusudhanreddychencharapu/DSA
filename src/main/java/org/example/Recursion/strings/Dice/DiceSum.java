@@ -8,8 +8,8 @@ public class DiceSum {
         //diceSum("",4);
         int count = diceFaceSumCount("",8,6);
         System.out.println("The total count of target 8 is "+count);
-        List<String> list = diceFaceSumList("",8,6);
-        System.out.println("The total veryfying count is "+list.size());
+        List<String> list = diceFaceSumList("",4,6);
+        System.out.println("The total veryfying count is "+list);
 
     }
     // Here we are just printing the pattern which is target sum

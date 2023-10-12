@@ -64,7 +64,6 @@ public class LL {
     * */
     public void addAtIndex(int num , int index){
         Node node = new Node(num);
-        Node tempadd ;
         int i = 1;
         if(index == 0){
             addFirst(num);
@@ -76,9 +75,8 @@ public class LL {
             while(i++<index){
                 temp=temp.next;
             }
-            tempadd = temp.next;
+            node.next = temp.next;
             temp.next = node;
-            node.next=tempadd;
             size++;
         }
     }
@@ -102,13 +100,19 @@ public class LL {
         head = inserRec(val ,index , head);
         return null;
     }
-    private Node inserRec(int val, int index,Node node){
+    /*Here We are inserting through the method of the node return type that returns
+     the node to change the structure
+     * In every function  call it returning itself (i.e) the currentNode
+
+     * In only base condition it is returning the new node that is created.
+    * */
+    private Node inserRec(int val, int index,Node currNode){
        if(index == 0){
-           Node temp = new Node(val,node);
+           Node temp = new Node(val,currNode);
            return temp;
        }
-       node.next = inserRec(val,index-1,node.next);
-       return node;
+       currNode.next = inserRec(val,index-1,currNode.next);
+       return currNode;
     }
 
     /*

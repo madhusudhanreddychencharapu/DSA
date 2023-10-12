@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Dice/DiceSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/PhoneNumberCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLLMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryTrees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/HashMapPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/series/NthFibanaccoNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Permutation_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Permutation_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Dice/DiceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Recursion/strings/Dice/DiceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,26 +71,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.DiceSum">
-    <configuration name="DLLMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.DLLMainClass" />
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="HashMapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.HashMapPractice" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiceSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.Dice.DiceSum" />
-      <module name="Java_Linked_List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Recursion.strings.Dice.*" />
+          <option name="PATTERN" value="org.example.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.Permutation" />
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.Backtracking.Maze" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Recursion.strings.*" />
+          <option name="PATTERN" value="org.example.Recursion.Backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.strings.PhoneNumberCombination" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.Backtracking.NQueens" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Recursion.strings.*" />
+          <option name="PATTERN" value="org.example.Recursion.Backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthFibanaccoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.series.NthFibanaccoNumber" />
+      <module name="Java_Linked_List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Recursion.series.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiceSum" />
-        <item itemvalue="Application.PhoneNumberCombination" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.DLLMainClass" />
         <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.HashMapPractice" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.NthFibanaccoNumber" />
+        <item itemvalue="Application.Maze" />
       </list>
     </recent_temporary>
   </component>
@@ -226,16 +227,6 @@
           <line>7</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/Sorting/MergeSort.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/arrays/Sorting/MergeSort.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="35" />
@@ -251,8 +242,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Recursion/Backtracking/Maze.java</url>
-          <line>147</line>
-          <properties class="org.example.Recursion.Backtracking.Maze">
+          <line>148</line>
+          <properties class="org.example.Recursion.Backtracking.Maze" method="printMazePathArray">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

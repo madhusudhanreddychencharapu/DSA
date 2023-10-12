@@ -21,13 +21,13 @@ public class Maze {
                 {true,true,true},
                 {true,true,true},
             };
-//        mazePathsAllSides("",arr,0,0);
+        mazePathsAllSides("",arr,0,0);
 //        System.out.println("The total of paths moving four sides :"+countPaths);
 //        for (boolean[] booleans : arr) {
 //            System.out.println(Arrays.toString(booleans));
 //        }
-        int[][] abc = new int[arr.length][arr[0].length];
-        printMazePathArray("",arr,0,0,abc,1);
+//        int[][] abc = new int[arr.length][arr[0].length];
+//        printMazePathArray("",arr,0,0,abc,1);
     }
 
     // Here we return the  no of possible ways of to pass from reaching A to end.
@@ -114,27 +114,28 @@ public class Maze {
         }
 
         arr[r][c] = false;
-
+        if (r < arr.length - 1) {
+            //  arr[r][c] = false;
+            mazePathsAllSides(p + "D", arr, r + 1, c);
+            //  arr[r][c] = true;
+        }
         if (c < arr[0].length - 1) {
            // arr[r][c] = false;
             mazePathsAllSides(p + "R", arr, r, c + 1);
            // arr[r][c] = true;
         }
+        if (r > 0) {
+            //  arr[r][c] = false;
+            mazePathsAllSides(p + "U", arr, r - 1, c);
+            //  arr[r][c] = true;
+        }
         if (c > 0) {
            // arr[r][c] = false;
             mazePathsAllSides(p + "L", arr, r, c - 1);
-           // arr[r][c] = true;
+            //arr[r][c] = true;
         }
-        if (r > 0) {
-          //  arr[r][c] = false;
-            mazePathsAllSides(p + "U", arr, r - 1, c);
-          //  arr[r][c] = true;
-        }
-        if (r < arr.length - 1) {
-          //  arr[r][c] = false;
-            mazePathsAllSides(p + "D", arr, r + 1, c);
-          //  arr[r][c] = true;
-        }
+
+
         //This line is where the function call will be over
         // So before the function gets removed ,also remove the changes that were made in the function
         arr[r][c] = true;

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/LargestSubArrayWithZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/HashSetBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/ThreeSumZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/UniquePairCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +69,22 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
-    <configuration name="HashMapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.HashMapPractice" />
+  <component name="RunManager" selected="Application.ThreeSumZero">
+    <configuration name="HashSetBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.HashSetBasic" />
+      <module name="Java_Linked_List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestSubArrayWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.LargestSubArrayWithZeroSum" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.IsomorphicStrings" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.LongestConsecutiveSequence" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="PATTERN" value="org.example.HashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.linkedlist.MainClass" />
+    <configuration name="ThreeSumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.ThreeSumZero" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.linkedlist.*" />
+          <option name="PATTERN" value="org.example.HashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Recursion.Backtracking.NQueens" />
+    <configuration name="UniquePairCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.UniquePairCount" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Recursion.Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.ValidAnagram" />
-      <module name="Java_Linked_List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="PATTERN" value="org.example.HashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.HashMapPractice" />
-        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.ThreeSumZero" />
+        <item itemvalue="Application.UniquePairCount" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.HashSetBasic" />
+        <item itemvalue="Application.LargestSubArrayWithZeroSum" />
       </list>
     </recent_temporary>
   </component>

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/LargestSubArrayWithZeroSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/HashSetBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/ThreeSumZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/UniquePairCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/MaxSubArraySumOfLengthK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +64,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreeSumZero">
+  <component name="RunManager" selected="Application.MaxSubArraySumOfLengthK">
     <configuration name="HashSetBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HashSets.HashSetBasic" />
       <module name="Java_Linked_List" />
@@ -83,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSubArrayWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.LargestSubArrayWithZeroSum" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.LongestConsecutiveSequence" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="PATTERN" value="org.example.HashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.LongestConsecutiveSequence" />
+    <configuration name="MaxSubArraySumOfLengthK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.MaxSubArraySumOfLengthK" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="PATTERN" value="org.example.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArraySumOfLengthK" />
         <item itemvalue="Application.ThreeSumZero" />
         <item itemvalue="Application.UniquePairCount" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.HashSetBasic" />
-        <item itemvalue="Application.LargestSubArrayWithZeroSum" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +241,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HashMaps/MaxSubArraySumOfLengthK.java</url>
+          <line>28</line>
+          <properties class="org.example.HashMaps.MaxSubArraySumOfLengthK" method="maxSubArraySumOfSizeKOptimized">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

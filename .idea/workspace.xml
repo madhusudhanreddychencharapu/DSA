@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashMaps/MaxSubArraySumOfLengthK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/MaxSubArraySumOfLengthKOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SystemDesign/LRUCacheUsingDLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2SMhvh8AHqBcKrNvaciCBaJIhvT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,7 +58,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26653033&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -64,26 +69,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxSubArraySumOfLengthK">
-    <configuration name="HashSetBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.HashSetBasic" />
+  <component name="RunManager" selected="Application.LRUCacheMainClass">
+    <configuration name="LRUCacheMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SystemDesign.LRUCacheMainClass" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.LongestConsecutiveSequence" />
-      <module name="Java_Linked_List" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="PATTERN" value="org.example.SystemDesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubArraySumOfLengthKOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.MaxSubArraySumOfLengthKOptimized" />
+      <module name="Java_Linked_List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.HashSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxSubArraySumOfLengthK" />
-        <item itemvalue="Application.ThreeSumZero" />
+        <item itemvalue="Application.LRUCacheMainClass" />
+        <item itemvalue="Application.MaxSubArraySumOfLengthKOptimized" />
         <item itemvalue="Application.UniquePairCount" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
-        <item itemvalue="Application.HashSetBasic" />
+        <item itemvalue="Application.ThreeSumZero" />
+        <item itemvalue="Application.MaxSubArraySumOfLengthK" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +255,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/HashSets/MaxSubArraySumOfLengthKOptimized.java</url>
+          <line>14</line>
+          <properties class="org.example.HashSets.MaxSubArraySumOfLengthKOptimized" method="maxSumOfDistinctSubarray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

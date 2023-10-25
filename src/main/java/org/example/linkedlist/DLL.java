@@ -94,6 +94,7 @@ public class DLL {
         head = head.next;
         head.prev = null;
         size--;
+
         return tempNum;
     }
     public int deleteLast(){

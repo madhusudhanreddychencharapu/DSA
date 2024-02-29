@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe851f19-1c61-41d6-895b-ef47642cc75e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HashSets/MaxSubArraySumOfLengthKOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SystemDesign/LRUCacheUsingDLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedlist/DLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinaryTrees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinaryTrees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SystemDesign/LRUCacheUsingDLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SystemDesign/LRUCacheUsingDLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/IndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Comparator.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/reddy/Desktop/eclipse/eclipse-new-workspace/Ecom-Springboot-org&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/reddy/Downloads/customer-service&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -69,13 +70,23 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.LRUCacheMainClass">
-    <configuration name="LRUCacheMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SystemDesign.LRUCacheMainClass" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.BinaryTree" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Qa" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.org.example.BinarySearchTrees.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinaryTrees.Main" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SystemDesign.*" />
+          <option name="PATTERN" value="org.example.BinaryTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArraySumOfLengthK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashMaps.MaxSubArraySumOfLengthK" />
+    <configuration name="TempPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.revision.TempPractice" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashMaps.*" />
+          <option name="PATTERN" value="org.example.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArraySumOfLengthKOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.MaxSubArraySumOfLengthKOptimized" />
+    <configuration name="org.example.BinarySearchTrees.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinarySearchTrees.Main" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="PATTERN" value="org.example.BinarySearchTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.ThreeSumZero" />
+    <configuration name="org.example.BinaryTree.Traversal.BinaryTreeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BinaryTree.Traversal.BinaryTreeImpl" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="PATTERN" value="org.example.BinaryTree.Traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePairCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HashSets.UniquePairCount" />
+    <configuration name="twosumproblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.revision.twosumproblem" />
       <module name="Java_Linked_List" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.HashSets.*" />
+          <option name="PATTERN" value="org.example.revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCacheMainClass" />
-        <item itemvalue="Application.MaxSubArraySumOfLengthKOptimized" />
-        <item itemvalue="Application.UniquePairCount" />
-        <item itemvalue="Application.ThreeSumZero" />
-        <item itemvalue="Application.MaxSubArraySumOfLengthK" />
+        <item itemvalue="Application.org.example.BinarySearchTrees.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.BinaryTree.Traversal.BinaryTreeImpl" />
+        <item itemvalue="Application.TempPractice" />
+        <item itemvalue="Application.twosumproblem" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +236,16 @@
           <line>7</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/revision/twosumproblem.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/BinarySearchTrees/AVLTree.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="35" />
@@ -267,10 +288,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.BinarySearchTrees.AVLTree$Node" memberName="left" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="list.tail" />
         <watch expression="list.head" language="JAVA" />
+        <watch expression="node.height" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

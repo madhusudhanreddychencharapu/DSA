@@ -11,7 +11,7 @@ public class LRUCacheUsingDLL {
 
     /*
     * Here we are taking two nodes intially head and tail which in Double Linked List
-    * i.e head.next is pointing to tail, tail.prev is pointing to the head
+    * i.e head.next is pointing to , tail.prev is pointing to the head
     * Here we are doing these things in constructor.
     *
     * There are only two concepts

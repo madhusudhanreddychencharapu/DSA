@@ -45,11 +45,11 @@ public class HashMapImpl {
             LinkedList<Node>[] oldBuckets = buckets;
             initBuckets(oldBuckets.length*2);
             n=0; //making the size to zero because we are hashing from starting
-            for(var bucket: oldBuckets){
-                for(var node : bucket){
-                    put(node.key,node.value);
-                }
-            }
+//            for(var bucket: oldBuckets){
+//                for(var node : bucket){
+//                    put(node.key,node.value);
+//                }
+//            }
 
         }
 
